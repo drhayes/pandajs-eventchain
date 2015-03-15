@@ -1,0 +1,33 @@
+{
+  "name": "pandajs-eventchain",
+  "version": "0.1.1",
+  "description": "Utility to help time sequential events in Panda.js.",
+  "homepage": "https://github.com/drhayes/pandajs-eventchain",
+  "author": "David Hayes <drhayes@gmail.com> (http://drhayes.io)",
+  "keywords": [
+    "pandajs"
+  ],
+  "main": "./eventChain.js",
+  "scripts": {
+      "test": "jshint --verbose eventChain.js **/*.js && mocha"
+    },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drhayes/pandajs-eventchain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drhayes/pandajs-eventchain/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "jshint": "~2.4.3"
+  }
+}
